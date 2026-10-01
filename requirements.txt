@@ -1,0 +1,9 @@
+streamlit==1.55.0
+opencv-contrib-python==4.13.0.92
+numpy==2.4.3
+pillow==12.1.1
+pandas==2.3.3
+bcrypt==5.0.0
+psycopg2-binary==2.9.11
+SQLAlchemy==2.0.49
+matplotlib==3.10.9
