@@ -16,29 +16,29 @@ A computer vision-based attendance management system built with Python, OpenCV, 
 
 ## Project Structure
 
-FRAS/[cite: 1]
-|-- data/[cite: 1]
-|   `-- new/                           # Image dataset directory for facial samples[cite: 1]
-|       `-- .gitkeep[cite: 1]
-|-- pages/                             # Additional Streamlit pages and sub-views[cite: 1]
-|-- auth.py                            # Handles login verification and authentication logic[cite: 1]
-|-- backend.py                         # Core CV pipeline: face capture, dataset loading, and model training[cite: 1]
-|-- evaluate_robustness.py             # Script to benchmark model stability and accuracy[cite: 1]
-|-- haarcascade_frontalface_default.xml # Pre-trained OpenCV frontal face detector[cite: 1]
-|-- login.py                           # Main entry point: initializes Streamlit app, login UI, and routing[cite: 1]
-|-- main_uiv3.py                       # Main application dashboard layout and camera view[cite: 1]
-|-- metrics_chart.py                   # Generates graphical metrics and performance evaluation plots[cite: 1]
-|-- setup_db.py                        # Database setup and schema initialization script[cite: 1]
-|-- users.json                         # User credentials and authorized profile store[cite: 1]
-|-- .gitignore                         # Excludes large binaries, cache, and virtual environments[cite: 1]
-`-- README.md                          # Project documentation[cite: 1]
+FRAS/ 
+|-- data/                               # Image dataset directory for trained facial samples
+|   `-- new/                            # Image dataset directory for new facial samples 
+|       `-- .gitkeep 
+|-- pages/                              # Additional Streamlit pages and sub-views 
+|-- auth.py                             # Handles login verification and authentication logic 
+|-- backend.py                          # Core CV pipeline: face capture, dataset loading, and model training 
+|-- evaluate_robustness.py              # Script to benchmark model stability and accuracy 
+|-- haarcascade_frontalface_default.xml # Pre-trained OpenCV frontal face detector 
+|-- login.py                            # Main entry point: initializes Streamlit app, login UI, and routing 
+|-- main_uiv3.py                        # Main application dashboard layout and camera view 
+|-- metrics_chart.py                    # Generates graphical metrics and performance evaluation plots 
+|-- setup_db.py                         # Database setup and schema initialization script 
+|-- users.json                          # User credentials and authorized profile store 
+|-- .gitignore                          # Excludes large binaries, cache, and virtual environments 
+`-- README.md                           # Project documentation 
 
 ---
 
 ## Prerequisites & Installation
 
 1. Clone the repository:
-   git clone https://github.com/NotAde11/facial-recognition-attendance-system.git[cite: 1]
+   git clone https://github.com/NotAde11/facial-recognition-attendance-system.git 
    cd facial-recognition-attendance-system
 
 2. Set up a virtual environment (optional):
